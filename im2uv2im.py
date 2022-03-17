@@ -8,7 +8,6 @@ import os
 
 from matplotlib import pyplot as plt
 
-matplotlib.use('TkAgg')
 
 
 def parse_iuv(result):
