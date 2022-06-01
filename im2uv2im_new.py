@@ -286,11 +286,11 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--image_path', type=str, default='/home/sh0089/sen/fashion/train_img', help='path to the image directory')
-    parser.add_argument('--garment_path', type=str, default='/home/sh0089/sen/fashion/train_color', help='path to the image directory')
-    parser.add_argument('--mask_path', type=str, default='/home/sh0089/sen/fashion/train_edge', help='path to the image directory')
-    parser.add_argument('--grid_path', type=str, default='/home/sh0089/sen/PF-AFN/PF-AFN_test/vton_train_grid', help='path to the image directory')
+    parser.add_argument('--garment_path', type=str, default='/home/sh0089/sen/fashion/train_color', help='path to the garment directory')
+    parser.add_argument('--mask_path', type=str, default='/home/sh0089/sen/fashion/train_edge', help='path to the garment mask directory')
+    parser.add_argument('--grid_path', type=str, default='/home/sh0089/sen/PF-AFN/PF-AFN_test/vton_train_grid', help='path to the sampling grid directory')
     parser.add_argument('--densepose_path', type=str, default='/home/sh0089/sen/fashion/train_iuv', help='path to the densepose directory')
-    parser.add_argument('--garment_densepose_path', type=str, default='/home/sh0089/sen/fashion/train_garment_iuv', help='path to the densepose directory')
+    parser.add_argument('--garment_densepose_path', type=str, default='/home/sh0089/sen/fashion/train_garment_iuv', help='path to the garment densepose directory')
     parser.add_argument('--image_name', type=str, default = '000145_0.jpg', help='image to be visualized')
     parser.add_argument('--target_name', type=str, default = '000079_0.jpg', help='image to be visualized')
 
